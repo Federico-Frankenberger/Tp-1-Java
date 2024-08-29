@@ -7,14 +7,15 @@ public  class Main {
         int num;
         int num_2;
         System.out.println("----------------------------------- \n¡Bienvenido al Trabajo Práctico 1!\n-----------------------------------");
-        System.out.println("Grupo: 1 \nIntegrantes: Frankneberger Federico \n-----------------------------------");
-        System.out.println("1 / Continuar \n2 / Salir");
+        System.out.println("Grupo: 1 \nIntegrantes: - Frankenberger Federico - Emilia Barros - Miguel apellido - Guadalupe Maricchiolo - \n-----------------------------------");
+        System.out.println("-Ingrese-\n1 / Continuar \n2 / Salir\n-----------------------------------");
         do {
             num = sc.nextInt();
             switch (num){
                 case 1 :
                     do {
-                        System.out.println("-Seleccione-\n-- 1 a 14 para ejercicios\n-- 15 para salir");
+                        System.out.println("------------\n EJERCICIOS \n------------");
+                        System.out.println("-Ingrese-\n-- 1 a 14 para ejercicios\n-- 15 para salir");
                         num_2 = sc.nextInt();
                         switch (num_2){
                             case 1:
@@ -224,7 +225,9 @@ public  class Main {
                     }while(num==1);
                     break;
                 case 2 :
+                    System.out.println("--------");
                     System.out.println("Gracias!");
+                    System.out.println("--------");
                     break;
                 default:
                     System.out.println("- Número fuera de rango - Intente nuevamente -\n1 / Continuar \n2 / Salir");
