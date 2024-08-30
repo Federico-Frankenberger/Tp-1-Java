@@ -7,7 +7,7 @@ public  class Main {
         int num;
         int num_2;
         System.out.println("----------------------------------- \n¡Bienvenido al Trabajo Práctico 1!\n-----------------------------------");
-        System.out.println("Grupo: 1 \nIntegrantes: - Frankenberger Federico - Emilia Barros - Miguel apellido - Guadalupe Maricchiolo - \n-----------------------------------");
+        System.out.println("Grupo: 1 \nIntegrantes: - Miguel Barrera - Emilia Barros -  Federico Frankenberger  - Guadalupe Maricchiolo - \n-----------------------------------");
         System.out.println("-Ingrese-\n1 / Continuar \n2 / Salir\n-----------------------------------");
         do {
             num = sc.nextInt();
@@ -66,7 +66,7 @@ public  class Main {
                             case 5:
                                 System.out.println("-------------------------------------");
                                 System.out.println("Ejercicio 5:");
-                                System.out.println("Ingresa un número para saber si es divisible en 2:");
+                                System.out.println("Ingresar un número para saber si es divisible en 2:");
                                 int numero5 = sc.nextInt();
                                 if ((numero5 % 2)==0 ){
                                     System.out.println("El número es divisible por 2!");
@@ -238,4 +238,3 @@ public  class Main {
     }
 }
 
-/* Probando 1,2,3,4 */
